@@ -4,12 +4,6 @@ import { Rain, Particles } from "@/components/atmosphere";
 import { ManInRain } from "@/components/visuals";
 
 export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "Please Read This — A Letter from Faiz" },
-      { name: "description", content: "Before you close this... please give me a few moments." },
-    ],
-  }),
   component: Page1,
 });
 

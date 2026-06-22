@@ -4,7 +4,7 @@ import { Particles } from "@/components/atmosphere";
 import { MoonMemories } from "@/components/visuals";
 
 export const Route = createFileRoute("/miss")({
-  head: () => ({ meta: [{ title: "The Things I Miss" }] }),
+
   component: () => (
     <PageShell
       step={4}

@@ -4,7 +4,6 @@ import { Particles } from "@/components/atmosphere";
 import { BrokenHeart } from "@/components/visuals";
 
 export const Route = createFileRoute("/wrong")({
-  head: () => ({ meta: [{ title: "I Was Wrong" }] }),
   component: () => (
     <PageShell
       step={2}

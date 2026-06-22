@@ -4,7 +4,7 @@ import { Particles } from "@/components/atmosphere";
 import { TwoSilhouettes } from "@/components/visuals";
 
 export const Route = createFileRoute("/heart")({
-  head: () => ({ meta: [{ title: "My Heart" }] }),
+
   component: () => (
     <PageShell
       step={6}

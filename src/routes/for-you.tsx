@@ -5,7 +5,7 @@ import { Petals, Particles } from "@/components/atmosphere";
 import { Sunrise } from "@/components/visuals";
 
 export const Route = createFileRoute("/for-you")({
-  head: () => ({ meta: [{ title: "For You — Thank You For Reading" }] }),
+
   component: FinalPage,
 });
 

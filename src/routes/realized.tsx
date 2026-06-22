@@ -4,7 +4,7 @@ import { Particles } from "@/components/atmosphere";
 import { MemoryTimeline } from "@/components/visuals";
 
 export const Route = createFileRoute("/realized")({
-  head: () => ({ meta: [{ title: "What I Realized" }] }),
+
   component: () => (
     <PageShell
       step={3}

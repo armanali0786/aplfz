@@ -4,7 +4,7 @@ import { Particles } from "@/components/atmosphere";
 import { RepairingHeart } from "@/components/visuals";
 
 export const Route = createFileRoute("/promise")({
-  head: () => ({ meta: [{ title: "My Promise" }] }),
+
   component: () => (
     <PageShell
       step={5}
